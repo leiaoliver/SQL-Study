@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7D78F505-A5C4-2BB5-5FF5-B757A4C07CB4" name="T_SIP_FUNCIONARIO">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-14 04:48:20 UTC</createdTime>
+<ownerDesignName>exemplo01</ownerDesignName>
+<engineerTo>
+<item key="5F1B0416-5F4F-96AF-A301-6E9C7397AD9B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_matricula" id="114A8CD6-7B6D-FD02-A0A1-C66B43FEBF9F">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-14 04:48:59 UTC</createdTime>
+<ownerDesignName>exemplo01</ownerDesignName>
+<engineerTo>
+<item key="5F1B0416-5F4F-96AF-A301-6E9C7397AD9B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_funcionario" id="2121DF75-CE5D-A09F-25C1-D4214283E2C3">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-14 04:49:29 UTC</createdTime>
+<ownerDesignName>exemplo01</ownerDesignName>
+<engineerTo>
+<item key="5F1B0416-5F4F-96AF-A301-6E9C7397AD9B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="5ADEA305-5975-D6BD-C742-A8FD3079D0A0">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-14 04:49:45 UTC</createdTime>
+<ownerDesignName>exemplo01</ownerDesignName>
+<engineerTo>
+<item key="5F1B0416-5F4F-96AF-A301-6E9C7397AD9B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_admissao" id="96CF4433-8C99-90E0-280C-649777E3DD6F">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-14 04:50:03 UTC</createdTime>
+<ownerDesignName>exemplo01</ownerDesignName>
+<engineerTo>
+<item key="5F1B0416-5F4F-96AF-A301-6E9C7397AD9B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_salario" id="39A63E04-92D5-2A1F-B44D-456E18FE262F">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-14 04:50:17 UTC</createdTime>
+<ownerDesignName>exemplo01</ownerDesignName>
+<engineerTo>
+<item key="5F1B0416-5F4F-96AF-A301-6E9C7397AD9B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B5F67AD0-579F-7748-1751-0E816CEE42A2" name="T_SIP_FUNCIONARIO PK">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-14 04:49:16 UTC</createdTime>
+<ownerDesignName>exemplo01</ownerDesignName>
+<engineerTo>
+<item key="5F1B0416-5F4F-96AF-A301-6E9C7397AD9B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>114A8CD6-7B6D-FD02-A0A1-C66B43FEBF9F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
