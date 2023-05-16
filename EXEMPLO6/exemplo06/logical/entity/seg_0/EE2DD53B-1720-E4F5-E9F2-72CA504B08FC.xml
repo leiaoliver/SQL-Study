@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EE2DD53B-1720-E4F5-E9F2-72CA504B08FC" name="T_PACIENTE">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-15 21:24:16 UTC</createdTime>
+<ownerDesignName>exemplo06</ownerDesignName>
+<engineerTo>
+<item key="1BABE764-9AB5-6B89-0DC2-0890DA07268E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_paciente" id="0385B08F-A509-40FA-EE8C-C4E2A2FEFFAB">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-15 21:25:24 UTC</createdTime>
+<ownerDesignName>exemplo06</ownerDesignName>
+<engineerTo>
+<item key="1BABE764-9AB5-6B89-0DC2-0890DA07268E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_paciente" id="B778E992-F3E4-3A01-4B14-6794D62B12F8">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-15 21:25:34 UTC</createdTime>
+<ownerDesignName>exemplo06</ownerDesignName>
+<engineerTo>
+<item key="1BABE764-9AB5-6B89-0DC2-0890DA07268E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="87E1316F-B688-E781-25D1-FD052679A542">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-15 21:25:41 UTC</createdTime>
+<ownerDesignName>exemplo06</ownerDesignName>
+<engineerTo>
+<item key="1BABE764-9AB5-6B89-0DC2-0890DA07268E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_sexo" id="E2D43CD1-6501-AF26-E171-066A47373003">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-15 21:25:56 UTC</createdTime>
+<ownerDesignName>exemplo06</ownerDesignName>
+<engineerTo>
+<item key="1BABE764-9AB5-6B89-0DC2-0890DA07268E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EA6B497A-67AE-AB23-E1F5-97FCE53EE73C" name="T_PACIENTE PK">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-15 21:25:32 UTC</createdTime>
+<ownerDesignName>exemplo06</ownerDesignName>
+<engineerTo>
+<item key="1BABE764-9AB5-6B89-0DC2-0890DA07268E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0385B08F-A509-40FA-EE8C-C4E2A2FEFFAB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

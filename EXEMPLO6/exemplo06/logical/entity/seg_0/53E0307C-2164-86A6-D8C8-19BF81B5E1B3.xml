@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53E0307C-2164-86A6-D8C8-19BF81B5E1B3" name="T_MEDICO">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-15 21:24:01 UTC</createdTime>
+<ownerDesignName>exemplo06</ownerDesignName>
+<engineerTo>
+<item key="1BABE764-9AB5-6B89-0DC2-0890DA07268E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_matricula" id="A9511381-5F22-2B64-DFA8-EF1F01F2325B">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-15 21:24:47 UTC</createdTime>
+<ownerDesignName>exemplo06</ownerDesignName>
+<engineerTo>
+<item key="1BABE764-9AB5-6B89-0DC2-0890DA07268E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_medico" id="2072719F-9B89-E4B3-CBCC-8EA39207E0D1">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-15 21:24:58 UTC</createdTime>
+<ownerDesignName>exemplo06</ownerDesignName>
+<engineerTo>
+<item key="1BABE764-9AB5-6B89-0DC2-0890DA07268E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_crm" id="3C6483DC-A76E-508E-C181-E67A87C3AD65">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-15 21:25:11 UTC</createdTime>
+<ownerDesignName>exemplo06</ownerDesignName>
+<engineerTo>
+<item key="1BABE764-9AB5-6B89-0DC2-0890DA07268E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9381E450-A47B-BCE0-6B76-4684FBFC5F32" name="T_MEDICO PK">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-15 21:24:56 UTC</createdTime>
+<ownerDesignName>exemplo06</ownerDesignName>
+<engineerTo>
+<item key="1BABE764-9AB5-6B89-0DC2-0890DA07268E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A9511381-5F22-2B64-DFA8-EF1F01F2325B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

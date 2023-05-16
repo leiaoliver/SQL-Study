@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="exemplo06" id="C3EF2478-834D-572D-D06E-9AFCDDC978C5" version="3.5">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-15 21:23:54 UTC</createdTime>
+<ownerDesignName>exemplo06</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C3EF2478-834D-572D-D06E-9AFCDDC978C5</designId>
+</OSDM_Design>
