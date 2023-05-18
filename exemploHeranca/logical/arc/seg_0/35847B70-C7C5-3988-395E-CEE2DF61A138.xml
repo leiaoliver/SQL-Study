@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="35847B70-C7C5-3988-395E-CEE2DF61A138" name="Arc_1">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-16 19:38:08 UTC</createdTime>
+<ownerDesignName>exemploHeranca</ownerDesignName>
+<engineerTo>
+<item key="A85CA08B-E60D-97B7-8124-E171EE221F94" value="true"/>
+</engineerTo>
+<entity>8EC099D6-6490-41BB-1152-835844808B3D</entity>
+<relations>
+<relationID>6ED96154-2FFD-7D90-5062-FB91EC9B4CC9</relationID>
+<relationID>C4321C72-0039-4270-7D58-5B59777F70F2</relationID>
+</relations>
+</Arc>

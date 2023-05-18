@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ser" directorySegmentName="seg_0" id="6ED96154-2FFD-7D90-5062-FB91EC9B4CC9">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-16 19:35:11 UTC</createdTime>
+<ownerDesignName>exemploHeranca</ownerDesignName>
+<engineerTo>
+<item key="A85CA08B-E60D-97B7-8124-E171EE221F94" value="true"/>
+</engineerTo>
+<sourcePk>0221250B-B814-FBB4-1642-15B7D839A6FE</sourcePk>
+<arc>35847B70-C7C5-3988-395E-CEE2DF61A138</arc>
+<dominantRole>8EC099D6-6490-41BB-1152-835844808B3D</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8EC099D6-6490-41BB-1152-835844808B3D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3F6545FA-2D2B-48FF-2969-DC184BA187D6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

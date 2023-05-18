@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="3123C4A6-9DD5-8FFC-D254-89ABD254AB84" mainViewID="FA87E59B-865C-3518-224A-6CB9F2C5B11F">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-16 21:23:36 UTC</createdTime>
+<ownerDesignName>recursivo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

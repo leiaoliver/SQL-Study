@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D5523B47-D198-BBB4-F54C-9AC4004DA59F" name="T_PESSOA_FISICA">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-16 19:30:14 UTC</createdTime>
+<ownerDesignName>exemploHeranca</ownerDesignName>
+<engineerTo>
+<item key="A85CA08B-E60D-97B7-8124-E171EE221F94" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_pessoa" id="E5AAA6D0-2B98-9D15-C545-DBA1FDDBEC35">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-16 19:36:14 UTC</createdTime>
+<generatorID>C4321C72-0039-4270-7D58-5B59777F70F2</generatorID>
+<ownerDesignName>exemploHeranca</ownerDesignName>
+<engineerTo>
+<item key="A85CA08B-E60D-97B7-8124-E171EE221F94" value="true"/>
+</engineerTo>
+<referedAttribute>A92AD90D-DDAB-CAEE-E3A3-E470A17E1BCB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cnpj" id="13CD3B93-2EE6-FE5A-6E5B-37F261683A8A">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-16 19:32:30 UTC</createdTime>
+<ownerDesignName>exemploHeranca</ownerDesignName>
+<engineerTo>
+<item key="A85CA08B-E60D-97B7-8124-E171EE221F94" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_insc_estadual" id="F08B74A2-40F1-8B78-1782-9F33659D921C">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-16 19:32:42 UTC</createdTime>
+<ownerDesignName>exemploHeranca</ownerDesignName>
+<engineerTo>
+<item key="A85CA08B-E60D-97B7-8124-E171EE221F94" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_ramo_atividade" id="88577737-BF88-FD0B-6D0F-35E4B8A1324C">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-16 19:32:55 UTC</createdTime>
+<ownerDesignName>exemploHeranca</ownerDesignName>
+<engineerTo>
+<item key="A85CA08B-E60D-97B7-8124-E171EE221F94" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5CFCDEEC-A7AB-3C7E-1DAA-9C582435DD3E" name="T_PESSOA_FISICA PK">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-16 19:36:28 UTC</createdTime>
+<ownerDesignName>exemploHeranca</ownerDesignName>
+<engineerTo>
+<item key="A85CA08B-E60D-97B7-8124-E171EE221F94" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E5AAA6D0-2B98-9D15-C545-DBA1FDDBEC35</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

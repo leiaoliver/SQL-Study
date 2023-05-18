@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8EC099D6-6490-41BB-1152-835844808B3D" name="T_PESSOA">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-16 19:29:48 UTC</createdTime>
+<ownerDesignName>exemploHeranca</ownerDesignName>
+<engineerTo>
+<item key="A85CA08B-E60D-97B7-8124-E171EE221F94" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_pessoa" id="A92AD90D-DDAB-CAEE-E3A3-E470A17E1BCB">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-16 19:30:46 UTC</createdTime>
+<ownerDesignName>exemploHeranca</ownerDesignName>
+<engineerTo>
+<item key="A85CA08B-E60D-97B7-8124-E171EE221F94" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_pessoa" id="5AB351A8-F677-3E0F-B982-F1B001789F8A">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-16 19:30:59 UTC</createdTime>
+<ownerDesignName>exemploHeranca</ownerDesignName>
+<engineerTo>
+<item key="A85CA08B-E60D-97B7-8124-E171EE221F94" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="5A5E7E8A-2096-BC65-4243-590E72972E70">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-16 19:31:07 UTC</createdTime>
+<ownerDesignName>exemploHeranca</ownerDesignName>
+<engineerTo>
+<item key="A85CA08B-E60D-97B7-8124-E171EE221F94" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="2B4244DA-5EEE-8958-28FB-7513D3306646">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-16 19:31:18 UTC</createdTime>
+<ownerDesignName>exemploHeranca</ownerDesignName>
+<engineerTo>
+<item key="A85CA08B-E60D-97B7-8124-E171EE221F94" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0221250B-B814-FBB4-1642-15B7D839A6FE" name="T_PESSOA PK">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-16 19:30:56 UTC</createdTime>
+<ownerDesignName>exemploHeranca</ownerDesignName>
+<engineerTo>
+<item key="A85CA08B-E60D-97B7-8124-E171EE221F94" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A92AD90D-DDAB-CAEE-E3A3-E470A17E1BCB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

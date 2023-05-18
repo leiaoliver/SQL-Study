@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="2DC81F8F-A082-7C58-CB75-3E621D77ED78">
+<createdBy>leia</createdBy>
+<createdTime>2023-05-16 21:24:54 UTC</createdTime>
+<ownerDesignName>recursivo</ownerDesignName>
+<engineerTo>
+<item key="3123C4A6-9DD5-8FFC-D254-89ABD254AB84" value="true"/>
+</engineerTo>
+<targetPk>53F44B59-267A-2258-4F2E-28BF67459020</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AE5D245F-0704-E324-6E4E-1879CF1E08C2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AE5D245F-0704-E324-6E4E-1879CF1E08C2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
